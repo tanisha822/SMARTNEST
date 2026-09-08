@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block title %}File Upload — CyberNest{% endblock %}
+
+{% block content %}
+<div class="page-wrap">
+  <div class="page-header">
+    <h1><i class="bi bi-cloud-upload" style="color:var(--accent)"></i> Upload Product Image</h1>
+    <p>Upload images for your products</p>
+  </div>
+
+  {% if message %}
+  <div class="alert-dark alert-success" style="margin-bottom:16px;">
+    <i class="bi bi-check-circle-fill"></i> {{ message }}
+  </div>
+  {% endif %}
+
+  {% if error %}
+  <div class="alert-dark alert-error" style="margin-bottom:16px;">
+    <i class="bi bi-shield-x"></i> {{ error }}
+  </div>
+  {% endif %}
+
+  {% if exec_output %}
+  <div style="background:#E24B4A15;border:1px solid var(--accent2);border-radius:var(--radius);padding:16px;margin-bottom:16px;">
+    <div style="color:var(--accent2);font-weight:600;margin-bottom:8px;">
+      <i class="bi bi-terminal"></i> Code Execution Output:
+    </div>
+    <pre style="font-family:var(--font-mono);font-size:13px;color:var(--text-1);margin:0;">{{ exec_output }}</pre>
+  </div>
+  {% endif %}
+
+  <!-- UPLOAD FORM -->
+  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;margin-bottom:20px;">
+    <h3 style="font-family:var(--font-head);font-size:18px;margin-bottom:16px;">Upload File</h3>
+    <form method="POST" enctype="multipart/form-data">
+      <div class="form-group">
+        <label>Select File</label>
+        <input type="file" name="file" class="form-control-dark" style="padding:8px;cursor:pointer;"/>
+      </div>
+      <button type="submit" class="btn-accent" style="margin-top:8px;">
+        <i class="bi bi-cloud-upload"></i> Upload
+      </button>
+    </form>
+  </div>
+
+  <!-- UPLOADED FILES LIST -->
+  {% if uploaded_files %}
+  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;">
+    <div style="padding:14px 20px;border-bottom:1px solid var(--border);">
+      <h3 style="font-family:var(--font-head);font-size:18px;">Uploaded Files</h3>
+    </div>
+    <div style="padding:16px;">
+      {% for f in uploaded_files %}
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 14px;background:var(--bg-surface);border:1px solid var(--border);border-radius:8px;margin-bottom:8px;">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <i class="bi bi-file-earmark" style="color:var(--accent);"></i>
+          <span style="font-family:var(--font-mono);font-size:13px;">{{ f }}</span>
+        </div>
+        <div style="display:flex;gap:8px;">
+          <a href="/static/uploads/{{ f }}"
+             target="_blank"
+             style="padding:5px 12px;background:var(--accent-dim);border:1px solid var(--accent);color:var(--accent);border-radius:6px;font-size:12px;text-decoration:none;">
+            <i class="bi bi-eye"></i> View
+          </a>
+          <!-- VULNERABILITY: Execute button only on vulnerable site -->
+          {% if f.endswith('.py') or f.endswith('.txt') %}
+          <a href="/execute/{{ f }}"
+             style="padding:5px 12px;background:#f7816622;border:1px solid var(--accent2);color:var(--accent2);border-radius:6px;font-size:12px;text-decoration:none;">
+            <i class="bi bi-play-fill"></i> Execute
+          </a>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

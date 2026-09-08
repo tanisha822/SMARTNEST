@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}Login — CyberNest{% endblock %}
+
+{% block content %}
+<div class="page-wrap">
+  <div class="form-wrap">
+    <div style="text-align:center;margin-bottom:24px;">
+      <div style="width:56px;height:56px;background:var(--accent-dim);border:1.5px solid var(--accent);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--accent);margin:0 auto 16px;">
+        <i class="bi bi-shield-lock"></i>
+      </div>
+      <h2>Welcome Back</h2>
+      <p class="sub">Sign in to your CyberNest account</p>
+    </div>
+
+    {% if error %}
+    <div class="alert-dark alert-error">
+      <i class="bi bi-exclamation-triangle-fill"></i> {{ error }}
+    </div>
+    {% endif %}
+
+    <form method="POST">
+      <div class="form-group">
+        <label>Username</label>
+        <div class="input-icon-wrap">
+          <i class="bi bi-person input-icon"></i>
+          <input type="text" name="username" class="form-control-dark" placeholder="Enter your username" required autocomplete="off"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <div class="input-icon-wrap">
+          <i class="bi bi-lock input-icon"></i>
+          <input type="password" name="password" class="form-control-dark" placeholder="Enter your password" required/>
+        </div>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;font-size:13px;">
+        <label style="display:flex;align-items:center;gap:6px;cursor:pointer;color:var(--text-2);font-weight:400;">
+          <input type="checkbox" style="accent-color:var(--accent);"> Remember me
+        </label>
+        <a href="#" style="color:var(--accent);text-decoration:none;">Forgot password?</a>
+      </div>
+      <button type="submit" class="btn-form">
+        <i class="bi bi-box-arrow-in-right"></i> Sign In
+      </button>
+    </form>
+
+    <div class="form-footer">
+      Don't have an account? <a href="/register">Create one</a>
+    </div>
+
+    <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);">
+      <div style="font-size:11px;color:var(--text-3);text-align:center;margin-bottom:10px;font-family:var(--font-mono);">Demo Credentials</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+        <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:8px;padding:10px;font-size:11px;font-family:var(--font-mono);color:var(--text-2);">
+          <div style="color:var(--accent);margin-bottom:4px;">ADMIN</div>
+          <div>user: admin</div>
+          <div>pass: admin123</div>
+        </div>
+        <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:8px;padding:10px;font-size:11px;font-family:var(--font-mono);color:var(--text-2);">
+          <div style="color:var(--accent3);margin-bottom:4px;">USER</div>
+          <div>user: john</div>
+          <div>pass: john123</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

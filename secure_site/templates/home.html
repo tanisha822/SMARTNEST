@@ -1,0 +1,336 @@
+{% extends "base.html" %}
+{% block title %}CyberNest — Security Hardware & Pentest Tools{% endblock %}
+
+{% block content %}
+<div class="page-wrap">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-grid"></div>
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="bi bi-lightning-charge-fill"></i> INDIA'S #1 SECURITY HARDWARE STORE
+          </div>
+          <h1>Defend Smarter.<br><span>Hack Ethically.</span></h1>
+          <p>Professional-grade cybersecurity tools, penetration testing equipment, and hardware security devices for
+            ethical hackers, pentesters, and security researchers.</p>
+          <div class="hero-actions">
+            <a href="/search?q=" class="btn-accent"><i class="bi bi-grid-fill"></i> Shop All Tools</a>
+            <a href="#featured" class="btn-outline-accent"><i class="bi bi-fire"></i> Top Deals</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="num">500+</div>
+              <div class="lbl">Products</div>
+            </div>
+            <div class="hero-stat">
+              <div class="num">50K+</div>
+              <div class="lbl">Customers</div>
+            </div>
+            <div class="hero-stat">
+              <div class="num">4.8★</div>
+              <div class="lbl">Avg Rating</div>
+            </div>
+            <div class="hero-stat">
+              <div class="num">24/7</div>
+              <div class="lbl">Support</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 d-none d-lg-flex justify-content-end align-items-center">
+        <div style="font-size:120px;opacity:.15;color:var(--accent);filter:drop-shadow(0 0 40px #00d4aa55);">
+          <i class="bi bi-shield-shaded"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURE STRIP -->
+  <div class="feature-strip">
+    <div class="feature-item">
+      <div class="feature-icon"><i class="bi bi-truck"></i></div>
+      <div class="feature-text">
+        <div class="ft">Free Delivery</div>
+        <div class="fs">On orders above ₹999</div>
+      </div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon"><i class="bi bi-arrow-counterclockwise"></i></div>
+      <div class="feature-text">
+        <div class="ft">7-Day Returns</div>
+        <div class="fs">No questions asked</div>
+      </div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon"><i class="bi bi-patch-check"></i></div>
+      <div class="feature-text">
+        <div class="ft">Genuine Products</div>
+        <div class="fs">100% authenticated</div>
+      </div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon"><i class="bi bi-headset"></i></div>
+      <div class="feature-text">
+        <div class="ft">Expert Support</div>
+        <div class="fs">Security specialists</div>
+      </div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon"><i class="bi bi-credit-card"></i></div>
+      <div class="feature-text">
+        <div class="ft">Secure Payments</div>
+        <div class="fs">SSL encrypted</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CATEGORIES -->
+  <div class="sec-header">
+    <div class="sec-title">
+      <div class="dot"></div> Shop by Category
+    </div>
+  </div>
+  <div class="cat-cards mb-4">
+    <a href="/search?q=network" class="cat-card">
+      <div class="cat-card-icon">🌐</div>
+      <div class="cat-card-name">Network Tools</div>
+      <div class="cat-card-count">42 items</div>
+    </a>
+    <a href="/search?q=camera" class="cat-card">
+      <div class="cat-card-icon">📷</div>
+      <div class="cat-card-name">Surveillance</div>
+      <div class="cat-card-count">28 items</div>
+    </a>
+    <a href="/search?q=lock" class="cat-card">
+      <div class="cat-card-icon">🔐</div>
+      <div class="cat-card-name">Smart Locks</div>
+      <div class="cat-card-count">15 items</div>
+    </a>
+    <a href="/search?q=usb" class="cat-card">
+      <div class="cat-card-icon">💾</div>
+      <div class="cat-card-name">USB / Hardware</div>
+      <div class="cat-card-count">33 items</div>
+    </a>
+    <a href="/search?q=detector" class="cat-card">
+      <div class="cat-card-icon">📡</div>
+      <div class="cat-card-name">RF Detectors</div>
+      <div class="cat-card-count">19 items</div>
+    </a>
+    <a href="/search?q=kit" class="cat-card">
+      <div class="cat-card-icon">🛠️</div>
+      <div class="cat-card-name">Pentest Kits</div>
+      <div class="cat-card-count">11 items</div>
+    </a>
+    <a href="/search?q=encrypted" class="cat-card">
+      <div class="cat-card-icon">🔒</div>
+      <div class="cat-card-name">Encrypted Storage</div>
+      <div class="cat-card-count">24 items</div>
+    </a>
+    <a href="/search?q=biometric" class="cat-card">
+      <div class="cat-card-icon">🧬</div>
+      <div class="cat-card-name">Biometric</div>
+      <div class="cat-card-count">9 items</div>
+    </a>
+  </div>
+
+  <!-- FEATURED PRODUCTS -->
+  <div id="featured">
+    <div class="sec-header">
+      <div class="sec-title">
+        <div class="dot"></div> Featured Products
+      </div>
+      <a href="/search?q=" class="sec-link">View all <i class="bi bi-arrow-right"></i></a>
+    </div>
+
+    {% if products %}
+    <div class="product-grid">
+      {% for product in products %}
+      <div class="p-card" onclick="window.location='/product/{{ product.id }}'">
+        <div class="p-card-img" style="background: linear-gradient(135deg, #0f2027, #1a2a35);">
+          {% if loop.index == 1 %}<span class="badge-tag">HOT</span>{% endif %}
+          {% if loop.index == 3 or loop.index == 6 %}<span class="badge-new">NEW</span>{% endif %}
+          <button class="wishlist-btn" onclick="event.stopPropagation()"><i class="bi bi-heart"></i></button>
+          <div class="product-icon" style="color:var(--accent);">
+            {% if 'camera' in product.name|lower or 'cam' in product.name|lower %}📷
+            {% elif 'lock' in product.name|lower %}🔐
+            {% elif 'usb' in product.name|lower %}💾
+            {% elif 'network' in product.name|lower or 'wifi' in product.name|lower %}🌐
+            {% elif 'detector' in product.name|lower or 'rf' in product.name|lower %}📡
+            {% elif 'key' in product.name|lower %}🔑
+            {% elif 'laptop' in product.name|lower %}💻
+            {% elif 'safe' in product.name|lower %}🗄️
+            {% else %}🛡️
+            {% endif %}
+          </div>
+        </div>
+        <div class="p-card-body">
+          <div class="p-brand">CyberNest</div>
+          <div class="p-name">{{ product.name }}</div>
+          <div class="p-rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating-count">({{ range(120, 890) | random }})</span>
+          </div>
+          <div class="p-price-row">
+            <span class="p-price">₹{{ "{:,.0f}".format(product.price|float) }}</span>
+            <span class="p-original">₹{{ "{:,.0f}".format(product.price|float * 1.2) }}</span>
+            <span class="p-discount">20% off</span>
+          </div>
+          <div class="p-tag"><span class="dot">●</span> In Stock · Free Delivery</div>
+          <button class="add-cart-btn" onclick="event.stopPropagation()">
+            <i class="bi bi-bag-plus"></i> Add to Cart
+          </button>
+        </div>
+      </div>
+      {% endfor %}
+
+      <!-- Extra static products for visual richness -->
+      <div class="p-card">
+        <div class="p-card-img" style="background:linear-gradient(135deg,#0f2027,#1a2a35);">
+          <span class="badge-tag">SALE</span>
+          <button class="wishlist-btn"><i class="bi bi-heart"></i></button>
+          <div class="product-icon">📡</div>
+        </div>
+        <div class="p-card-body">
+          <div class="p-brand">HackRF</div>
+          <div class="p-name">HackRF One Software Defined Radio</div>
+          <div class="p-rating"><span class="stars">★★★★☆</span><span class="rating-count">(341)</span></div>
+          <div class="p-price-row"><span class="p-price">₹18,999</span><span class="p-original">₹24,999</span><span
+              class="p-discount">24% off</span></div>
+          <div class="p-tag"><span class="dot">●</span> In Stock · Free Delivery</div>
+          <button class="add-cart-btn"><i class="bi bi-bag-plus"></i> Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="p-card">
+        <div class="p-card-img" style="background:linear-gradient(135deg,#0f2027,#1a2a35);">
+          <span class="badge-new">NEW</span>
+          <button class="wishlist-btn"><i class="bi bi-heart"></i></button>
+          <div class="product-icon">💾</div>
+        </div>
+        <div class="p-card-body">
+          <div class="p-brand">Hak5</div>
+          <div class="p-name">USB Rubber Ducky Keystroke Injector</div>
+          <div class="p-rating"><span class="stars">★★★★★</span><span class="rating-count">(892)</span></div>
+          <div class="p-price-row"><span class="p-price">₹6,499</span><span class="p-original">₹7,999</span><span
+              class="p-discount">19% off</span></div>
+          <div class="p-tag"><span class="dot">●</span> In Stock · Free Delivery</div>
+          <button class="add-cart-btn"><i class="bi bi-bag-plus"></i> Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="p-card">
+        <div class="p-card-img" style="background:linear-gradient(135deg,#0f2027,#1a2a35);">
+          <button class="wishlist-btn"><i class="bi bi-heart"></i></button>
+          <div class="product-icon">🌐</div>
+        </div>
+        <div class="p-card-body">
+          <div class="p-brand">Hak5</div>
+          <div class="p-name">WiFi Pineapple NANO Wireless Auditor</div>
+          <div class="p-rating"><span class="stars">★★★★★</span><span class="rating-count">(514)</span></div>
+          <div class="p-price-row"><span class="p-price">₹14,999</span><span class="p-original">₹17,999</span><span
+              class="p-discount">17% off</span></div>
+          <div class="p-tag"><span class="dot">●</span> In Stock · Free Delivery</div>
+          <button class="add-cart-btn"><i class="bi bi-bag-plus"></i> Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="p-card">
+        <div class="p-card-img" style="background:linear-gradient(135deg,#0f2027,#1a2a35);">
+          <span class="badge-tag">HOT</span>
+          <button class="wishlist-btn"><i class="bi bi-heart"></i></button>
+          <div class="product-icon">🔑</div>
+        </div>
+        <div class="p-card-body">
+          <div class="p-brand">Yubico</div>
+          <div class="p-name">YubiKey 5 NFC Hardware Security Key</div>
+          <div class="p-rating"><span class="stars">★★★★★</span><span class="rating-count">(1.2K)</span></div>
+          <div class="p-price-row"><span class="p-price">₹4,299</span><span class="p-original">₹4,999</span><span
+              class="p-discount">14% off</span></div>
+          <div class="p-tag"><span class="dot">●</span> In Stock · Free Delivery</div>
+          <button class="add-cart-btn"><i class="bi bi-bag-plus"></i> Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="p-card">
+        <div class="p-card-img" style="background:linear-gradient(135deg,#0f2027,#1a2a35);">
+          <button class="wishlist-btn"><i class="bi bi-heart"></i></button>
+          <div class="product-icon">🛠️</div>
+        </div>
+        <div class="p-card-body">
+          <div class="p-brand">Flipper</div>
+          <div class="p-name">Flipper Zero Multi-Tool Hacker Device</div>
+          <div class="p-rating"><span class="stars">★★★★★</span><span class="rating-count">(2.1K)</span></div>
+          <div class="p-price-row"><span class="p-price">₹22,999</span><span class="p-original">₹27,499</span><span
+              class="p-discount">16% off</span></div>
+          <div class="p-tag"><span class="dot">●</span> In Stock · Free Delivery</div>
+          <button class="add-cart-btn"><i class="bi bi-bag-plus"></i> Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="p-card">
+        <div class="p-card-img" style="background:linear-gradient(135deg,#0f2027,#1a2a35);">
+          <span class="badge-new">NEW</span>
+          <button class="wishlist-btn"><i class="bi bi-heart"></i></button>
+          <div class="product-icon">🗄️</div>
+        </div>
+        <div class="p-card-body">
+          <div class="p-brand">Kingston</div>
+          <div class="p-name">IronKey Encrypted USB 3.0 — 128GB</div>
+          <div class="p-rating"><span class="stars">★★★★☆</span><span class="rating-count">(287)</span></div>
+          <div class="p-price-row"><span class="p-price">₹8,499</span><span class="p-original">₹10,999</span><span
+              class="p-discount">23% off</span></div>
+          <div class="p-tag"><span class="dot">●</span> In Stock · Free Delivery</div>
+          <button class="add-cart-btn"><i class="bi bi-bag-plus"></i> Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="p-card">
+        <div class="p-card-img" style="background:linear-gradient(135deg,#0f2027,#1a2a35);">
+          <button class="wishlist-btn"><i class="bi bi-heart"></i></button>
+          <div class="product-icon">📷</div>
+        </div>
+        <div class="p-card-body">
+          <div class="p-brand">Reolink</div>
+          <div class="p-name">4K PoE IP Security Camera Outdoor</div>
+          <div class="p-rating"><span class="stars">★★★★☆</span><span class="rating-count">(673)</span></div>
+          <div class="p-price-row"><span class="p-price">₹5,999</span><span class="p-original">₹7,499</span><span
+              class="p-discount">20% off</span></div>
+          <div class="p-tag"><span class="dot">●</span> In Stock · Free Delivery</div>
+          <button class="add-cart-btn"><i class="bi bi-bag-plus"></i> Add to Cart</button>
+        </div>
+      </div>
+
+    </div>
+
+    {% else %}
+    <div style="text-align:center;padding:60px;color:var(--text-2);">
+      <i class="bi bi-box-seam" style="font-size:48px;display:block;margin-bottom:16px;opacity:.3;"></i>
+      <p>No products found. Add some products to your database.</p>
+    </div>
+    {% endif %}
+  </div>
+
+  <!-- PROMO BANNER -->
+  <div
+    style="margin-top:40px;background:linear-gradient(135deg,#0f2027,#1a2a35);border:1px solid var(--border);border-radius:var(--radius);padding:32px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;">
+    <div>
+      <div
+        style="font-family:var(--font-mono);font-size:12px;color:var(--accent);margin-bottom:8px;letter-spacing:1px;">
+        LIMITED TIME OFFER</div>
+      <div style="font-family:var(--font-head);font-size:26px;font-weight:700;color:var(--text-1);margin-bottom:6px;">
+        Pentest Starter Kit</div>
+      <div style="color:var(--text-2);font-size:14px;">Everything you need to start ethical hacking. Raspberry Pi 4 +
+        Network Tap + Encrypted USB</div>
+    </div>
+    <div style="text-align:right;">
+      <div style="font-family:var(--font-mono);font-size:32px;font-weight:500;color:var(--accent);">₹34,999</div>
+      <div style="font-size:13px;color:var(--text-2);text-decoration:line-through;margin-bottom:10px;">₹49,999</div>
+      <a href="#" class="btn-accent"><i class="bi bi-lightning-charge-fill"></i> Grab the Deal</a>
+    </div>
+  </div>
+
+</div>
+{% endblock %}

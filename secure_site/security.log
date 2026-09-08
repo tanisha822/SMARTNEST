@@ -1,0 +1,497 @@
+2026-04-21 05:42:00,767 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-21 05:42:00,768 INFO [33mPress CTRL+C to quit[0m
+2026-04-21 05:42:33,993 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-21 05:42:33,993 INFO [33mPress CTRL+C to quit[0m
+2026-04-21 05:43:04,976 INFO package: mysql.connector.plugins
+2026-04-21 05:43:04,976 INFO plugin_name: caching_sha2_password
+2026-04-21 05:43:04,976 INFO AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-21 05:43:05,025 INFO 127.0.0.1 - - [21/Apr/2026 05:43:05] "GET / HTTP/1.1" 200 -
+2026-04-21 05:43:05,165 INFO 127.0.0.1 - - [21/Apr/2026 05:43:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-21 05:43:08,998 INFO 127.0.0.1 - - [21/Apr/2026 05:43:08] "GET /login HTTP/1.1" 200 -
+2026-04-21 05:43:15,975 INFO Successful login: admin
+2026-04-21 05:43:15,976 INFO 127.0.0.1 - - [21/Apr/2026 05:43:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-21 05:43:16,033 INFO 127.0.0.1 - - [21/Apr/2026 05:43:16] "GET / HTTP/1.1" 200 -
+2026-04-21 05:43:19,524 INFO 127.0.0.1 - - [21/Apr/2026 05:43:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-21 05:43:19,532 INFO 127.0.0.1 - - [21/Apr/2026 05:43:19] "GET /login HTTP/1.1" 200 -
+2026-04-21 05:47:52,867 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-21 05:47:52,867 INFO [33mPress CTRL+C to quit[0m
+2026-04-21 05:47:52,869 INFO  * Restarting with stat
+2026-04-21 05:47:53,225 WARNING  * Debugger is active!
+2026-04-21 05:47:53,227 INFO  * Debugger PIN: 389-672-237
+2026-04-21 05:52:30,336 INFO  * Detected change in 'C:\\personal study & syllabus\\MY PROJECTS\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-21 05:52:30,394 INFO  * Restarting with stat
+2026-04-21 05:52:30,752 WARNING  * Debugger is active!
+2026-04-21 05:52:30,755 INFO  * Debugger PIN: 389-672-237
+2026-04-21 05:52:42,752 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-21 05:52:42,752 INFO [33mPress CTRL+C to quit[0m
+2026-04-21 05:54:04,975 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+2026-04-21 05:54:04,975 INFO [33mPress CTRL+C to quit[0m
+2026-04-21 05:54:22,597 INFO package: mysql.connector.plugins
+2026-04-21 05:54:22,597 INFO plugin_name: caching_sha2_password
+2026-04-21 05:54:22,597 INFO AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-21 05:54:22,625 INFO 127.0.0.1 - - [21/Apr/2026 05:54:22] "GET / HTTP/1.1" 200 -
+2026-04-21 05:54:22,860 INFO 127.0.0.1 - - [21/Apr/2026 05:54:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-21 05:56:42,672 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-21 05:56:42,673 INFO [33mPress CTRL+C to quit[0m
+2026-04-21 05:56:42,673 INFO  * Restarting with stat
+2026-04-21 05:56:43,040 WARNING  * Debugger is active!
+2026-04-21 05:56:43,043 INFO  * Debugger PIN: 389-672-237
+2026-04-21 05:56:49,252 INFO package: mysql.connector.plugins
+2026-04-21 05:56:49,252 INFO plugin_name: caching_sha2_password
+2026-04-21 05:56:49,252 INFO AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-21 05:56:49,272 INFO 127.0.0.1 - - [21/Apr/2026 05:56:49] "GET / HTTP/1.1" 200 -
+2026-04-21 05:56:52,466 INFO 127.0.0.1 - - [21/Apr/2026 05:56:52] "GET /login HTTP/1.1" 200 -
+2026-04-21 05:57:02,508 INFO Successful login: admin
+2026-04-21 05:57:02,509 INFO 127.0.0.1 - - [21/Apr/2026 05:57:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-21 05:57:02,569 INFO 127.0.0.1 - - [21/Apr/2026 05:57:02] "GET / HTTP/1.1" 200 -
+2026-04-21 06:07:09,529 INFO 127.0.0.1 - - [21/Apr/2026 06:07:09] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-21 06:07:09,537 INFO 127.0.0.1 - - [21/Apr/2026 06:07:09] "GET /login HTTP/1.1" 200 -
+2026-04-21 06:07:43,345 WARNING Failed login for: ' OR '1'='1
+2026-04-21 06:07:43,346 INFO 127.0.0.1 - - [21/Apr/2026 06:07:43] "POST /login HTTP/1.1" 200 -
+2026-04-21 06:07:54,743 WARNING Failed login for: ' OR '1'='1
+2026-04-21 06:07:54,744 INFO 127.0.0.1 - - [21/Apr/2026 06:07:54] "POST /login HTTP/1.1" 200 -
+2026-04-21 06:08:00,041 WARNING Failed login for: ' OR '1'='1
+2026-04-21 06:08:00,042 INFO 127.0.0.1 - - [21/Apr/2026 06:08:00] "POST /login HTTP/1.1" 200 -
+2026-04-21 06:08:13,663 WARNING Failed login for: admin' -- 
+2026-04-21 06:08:13,665 INFO 127.0.0.1 - - [21/Apr/2026 06:08:13] "POST /login HTTP/1.1" 200 -
+2026-04-21 06:08:18,718 WARNING Failed login for: admin' -- 
+2026-04-21 06:08:18,719 INFO 127.0.0.1 - - [21/Apr/2026 06:08:18] "POST /login HTTP/1.1" 200 -
+2026-04-21 06:08:25,980 WARNING Brute force detected for: rwgsv
+2026-04-21 06:08:25,981 INFO 127.0.0.1 - - [21/Apr/2026 06:08:25] "POST /login HTTP/1.1" 200 -
+2026-04-21 06:08:32,757 WARNING Brute force detected for: rwgsv
+2026-04-21 06:08:32,757 INFO 127.0.0.1 - - [21/Apr/2026 06:08:32] "POST /login HTTP/1.1" 200 -
+2026-04-21 06:08:39,460 WARNING Brute force detected for: rwgsv
+2026-04-21 06:08:39,460 INFO 127.0.0.1 - - [21/Apr/2026 06:08:39] "POST /login HTTP/1.1" 200 -
+2026-04-21 06:11:50,443 INFO 127.0.0.1 - - [21/Apr/2026 06:11:50] "GET /search?q=http://localhost:5000/search?q%3D<script>alert('XSS')</script> HTTP/1.1" 200 -
+2026-04-21 06:12:05,613 WARNING Brute force detected for: rwgsv
+2026-04-21 06:12:05,614 INFO 127.0.0.1 - - [21/Apr/2026 06:12:05] "POST /login HTTP/1.1" 200 -
+2026-04-21 06:14:30,181 INFO 127.0.0.1 - - [21/Apr/2026 06:14:30] "GET /search?q=<script>alert('XSS+Attack!')</script> HTTP/1.1" 200 -
+2026-04-21 06:14:47,258 INFO 127.0.0.1 - - [21/Apr/2026 06:14:47] "GET /search?q=<div+style%3D"position:fixed;top:50%25;left:50%25;transform:translate(-50%25,-50%25);background:%231c2128;padding:30px;border:2px+solid+red;border-radius:10px;z-index:9999"><h3+style%3D"color:white">Session+Expired+—+Login+Again</h3><input+placeholder%3D"Username"+style%3D"display:block;margin:10px+0;padding:8px;width:200px"><input+type%3D"password"+placeholder%3D"Password"+style%3D"display:block;margin:10px+0;padding:8px;width:200px"><button+style%3D"background:red;color:white;padding:8px+20px;border:none">Login</button></div> HTTP/1.1" 200 -
+2026-04-21 06:14:59,257 INFO 127.0.0.1 - - [21/Apr/2026 06:14:59] "GET /search?q=<h1+style%3D"color:red;position:fixed;top:0;left:0;width:100%25;text-align:center;background:black;z-index:9999">HACKED+BY+ATTACKER</h1> HTTP/1.1" 200 -
+2026-04-21 06:16:36,705 INFO 127.0.0.1 - - [21/Apr/2026 06:16:36] "[32mGET /admin HTTP/1.1[0m" 302 -
+2026-04-21 06:16:36,710 INFO 127.0.0.1 - - [21/Apr/2026 06:16:36] "GET /login HTTP/1.1" 200 -
+2026-04-21 06:16:36,971 INFO 127.0.0.1 - - [21/Apr/2026 06:16:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-21 06:19:04,095 INFO 127.0.0.1 - - [21/Apr/2026 06:19:04] "GET /login HTTP/1.1" 200 -
+2026-04-21 06:19:13,136 INFO Successful login: sahoo
+2026-04-21 06:19:13,137 INFO 127.0.0.1 - - [21/Apr/2026 06:19:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-21 06:19:13,142 INFO Successful login: sahoo
+2026-04-21 06:19:13,143 INFO 127.0.0.1 - - [21/Apr/2026 06:19:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-21 06:19:13,211 INFO 127.0.0.1 - - [21/Apr/2026 06:19:13] "GET / HTTP/1.1" 200 -
+2026-04-21 06:19:23,764 INFO 127.0.0.1 - - [21/Apr/2026 06:19:23] "GET /profile/4 HTTP/1.1" 200 -
+2026-04-21 06:19:27,968 INFO 127.0.0.1 - - [21/Apr/2026 06:19:27] "[31m[1mGET /profile/2 HTTP/1.1[0m" 403 -
+2026-04-21 06:20:17,591 INFO 127.0.0.1 - - [21/Apr/2026 06:20:17] "GET /change-password HTTP/1.1" 200 -
+2026-04-21 06:20:20,244 INFO 127.0.0.1 - - [21/Apr/2026 06:20:20] "GET / HTTP/1.1" 200 -
+2026-04-21 06:43:44,931 INFO 127.0.0.1 - - [21/Apr/2026 06:43:44] "GET /login HTTP/1.1" 200 -
+2026-04-21 06:43:54,038 WARNING Brute force detected for: sahoo
+2026-04-21 06:43:54,039 INFO 127.0.0.1 - - [21/Apr/2026 06:43:54] "POST /login HTTP/1.1" 200 -
+2026-04-21 06:44:02,669 WARNING Brute force detected for: sahoo
+2026-04-21 06:44:02,670 INFO 127.0.0.1 - - [21/Apr/2026 06:44:02] "POST /login HTTP/1.1" 200 -
+2026-04-21 06:44:06,973 WARNING Brute force detected for: sahoo
+2026-04-21 06:44:06,973 INFO 127.0.0.1 - - [21/Apr/2026 06:44:06] "POST /login HTTP/1.1" 200 -
+2026-04-21 06:44:21,106 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-21 06:44:21,107 INFO [33mPress CTRL+C to quit[0m
+2026-04-21 06:44:21,108 INFO  * Restarting with stat
+2026-04-21 06:44:21,456 WARNING  * Debugger is active!
+2026-04-21 06:44:21,459 INFO  * Debugger PIN: 389-672-237
+2026-04-21 06:44:35,340 INFO package: mysql.connector.plugins
+2026-04-21 06:44:35,340 INFO plugin_name: caching_sha2_password
+2026-04-21 06:44:35,340 INFO AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-21 06:44:35,375 INFO 127.0.0.1 - - [21/Apr/2026 06:44:35] "GET / HTTP/1.1" 200 -
+2026-04-21 06:45:14,975 INFO 127.0.0.1 - - [21/Apr/2026 06:45:14] "GET / HTTP/1.1" 200 -
+2026-04-21 06:45:23,757 INFO 127.0.0.1 - - [21/Apr/2026 06:45:23] "[31m[1mGET /admin HTTP/1.1[0m" 403 -
+2026-04-21 06:45:32,584 INFO 127.0.0.1 - - [21/Apr/2026 06:45:32] "[31m[1mGET /profile/3 HTTP/1.1[0m" 403 -
+2026-04-21 06:45:36,746 INFO 127.0.0.1 - - [21/Apr/2026 06:45:36] "GET / HTTP/1.1" 200 -
+2026-04-21 06:45:37,945 INFO 127.0.0.1 - - [21/Apr/2026 06:45:37] "GET /profile/4 HTTP/1.1" 200 -
+2026-04-21 06:45:43,246 INFO 127.0.0.1 - - [21/Apr/2026 06:45:43] "[31m[1mGET /profile/2 HTTP/1.1[0m" 403 -
+2026-04-21 06:45:44,969 INFO 127.0.0.1 - - [21/Apr/2026 06:45:44] "GET / HTTP/1.1" 200 -
+2026-04-21 06:46:22,308 INFO 127.0.0.1 - - [21/Apr/2026 06:46:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-21 06:46:22,626 INFO 127.0.0.1 - - [21/Apr/2026 06:46:22] "GET /login HTTP/1.1" 200 -
+2026-04-21 06:46:30,178 WARNING Failed login for: sahoo
+2026-04-21 06:46:30,180 INFO 127.0.0.1 - - [21/Apr/2026 06:46:30] "POST /login HTTP/1.1" 200 -
+2026-04-21 06:46:36,718 INFO Successful login: sahoo
+2026-04-21 06:46:36,720 INFO 127.0.0.1 - - [21/Apr/2026 06:46:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-21 06:46:36,774 INFO 127.0.0.1 - - [21/Apr/2026 06:46:36] "GET / HTTP/1.1" 200 -
+2026-04-21 06:46:39,808 INFO 127.0.0.1 - - [21/Apr/2026 06:46:39] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-21 06:46:39,950 INFO 127.0.0.1 - - [21/Apr/2026 06:46:39] "GET /login HTTP/1.1" 200 -
+2026-04-21 07:27:05,737 WARNING Failed login for: sc
+2026-04-21 07:27:05,739 INFO 127.0.0.1 - - [21/Apr/2026 07:27:05] "POST /login HTTP/1.1" 200 -
+2026-04-21 07:27:09,520 WARNING Failed login for: dv
+2026-04-21 07:27:09,522 INFO 127.0.0.1 - - [21/Apr/2026 07:27:09] "POST /login HTTP/1.1" 200 -
+2026-04-21 07:27:12,058 WARNING Failed login for: vds
+2026-04-21 07:27:12,060 INFO 127.0.0.1 - - [21/Apr/2026 07:27:12] "POST /login HTTP/1.1" 200 -
+2026-04-21 07:27:14,612 WARNING Failed login for: dvsv
+2026-04-21 07:27:14,614 INFO 127.0.0.1 - - [21/Apr/2026 07:27:14] "POST /login HTTP/1.1" 200 -
+2026-04-21 07:27:17,382 WARNING Failed login for: dvs
+2026-04-21 07:27:17,384 INFO 127.0.0.1 - - [21/Apr/2026 07:27:17] "POST /login HTTP/1.1" 200 -
+2026-04-21 07:27:20,500 WARNING Brute force detected for: vds
+2026-04-21 07:27:20,500 INFO 127.0.0.1 - - [21/Apr/2026 07:27:20] "POST /login HTTP/1.1" 200 -
+2026-04-21 07:33:37,701 INFO  * Detected change in 'C:\\personal study & syllabus\\MY PROJECTS\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-21 07:33:37,752 INFO  * Restarting with stat
+2026-04-21 07:33:38,121 WARNING  * Debugger is active!
+2026-04-21 07:33:38,126 INFO  * Debugger PIN: 389-672-237
+2026-04-21 07:33:45,780 INFO  * Detected change in 'C:\\personal study & syllabus\\MY PROJECTS\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-21 07:33:45,864 INFO  * Restarting with stat
+2026-04-21 07:33:46,296 WARNING  * Debugger is active!
+2026-04-21 07:33:46,299 INFO  * Debugger PIN: 389-672-237
+2026-04-21 07:33:50,868 INFO  * Detected change in 'C:\\personal study & syllabus\\MY PROJECTS\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-21 07:33:50,910 INFO  * Restarting with stat
+2026-04-21 07:33:51,263 WARNING  * Debugger is active!
+2026-04-21 07:33:51,266 INFO  * Debugger PIN: 389-672-237
+2026-04-21 07:45:30,788 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-21 07:45:30,788 INFO [33mPress CTRL+C to quit[0m
+2026-04-21 07:45:30,789 INFO  * Restarting with stat
+2026-04-21 07:45:31,132 WARNING  * Debugger is active!
+2026-04-21 07:45:31,135 INFO  * Debugger PIN: 389-672-237
+2026-04-21 07:53:18,191 WARNING Path traversal attempt: ../app.py
+2026-04-21 07:53:18,234 INFO 127.0.0.1 - - [21/Apr/2026 07:53:18] "GET /product-image?file=../app.py HTTP/1.1" 200 -
+2026-04-21 07:53:23,556 INFO 127.0.0.1 - - [21/Apr/2026 07:53:23] "GET /product-image HTTP/1.1" 200 -
+2026-04-21 07:53:40,024 WARNING Path traversal attempt: ../../secure_site/secure_app.py
+2026-04-21 07:53:40,024 INFO 127.0.0.1 - - [21/Apr/2026 07:53:40] "GET /product-image?file=../../secure_site/secure_app.py HTTP/1.1" 200 -
+2026-04-21 07:56:52,116 WARNING Path traversal attempt: ../../secure_site/secure_app.py
+2026-04-21 07:56:52,146 INFO 127.0.0.1 - - [21/Apr/2026 07:56:52] "GET /product-image?file=../../secure_site/secure_app.py HTTP/1.1" 200 -
+2026-04-21 07:56:53,716 WARNING Path traversal attempt: ../../secure_site/secure_app.py
+2026-04-21 07:56:53,716 INFO 127.0.0.1 - - [21/Apr/2026 07:56:53] "GET /product-image?file=../../secure_site/secure_app.py HTTP/1.1" 200 -
+2026-04-21 08:03:33,342 INFO  * Detected change in 'C:\\personal study & syllabus\\MY PROJECTS\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-21 08:03:33,407 INFO  * Restarting with stat
+2026-04-21 08:03:33,797 WARNING  * Debugger is active!
+2026-04-21 08:03:33,805 INFO  * Debugger PIN: 389-672-237
+2026-04-21 08:04:35,538 INFO  * Detected change in 'C:\\personal study & syllabus\\MY PROJECTS\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-21 08:04:35,588 INFO  * Restarting with stat
+2026-04-21 08:04:36,004 WARNING  * Debugger is active!
+2026-04-21 08:04:36,009 INFO  * Debugger PIN: 389-672-237
+2026-04-21 08:05:48,626 INFO  * Detected change in 'C:\\personal study & syllabus\\MY PROJECTS\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-21 08:05:48,669 INFO  * Restarting with stat
+2026-04-21 08:05:49,027 WARNING  * Debugger is active!
+2026-04-21 08:05:49,031 INFO  * Debugger PIN: 389-672-237
+2026-04-21 08:06:57,336 INFO  * Detected change in 'C:\\personal study & syllabus\\MY PROJECTS\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-21 08:06:57,391 INFO  * Restarting with stat
+2026-04-21 08:06:57,800 WARNING  * Debugger is active!
+2026-04-21 08:06:57,805 INFO  * Debugger PIN: 389-672-237
+2026-04-21 08:14:28,337 INFO 127.0.0.1 - - [21/Apr/2026 08:14:28] "[32mGET /upload HTTP/1.1[0m" 302 -
+2026-04-21 08:14:28,391 INFO 127.0.0.1 - - [21/Apr/2026 08:14:28] "GET /login HTTP/1.1" 200 -
+2026-04-21 08:14:37,337 WARNING Brute force detected for: sahoo
+2026-04-21 08:14:37,337 INFO 127.0.0.1 - - [21/Apr/2026 08:14:37] "POST /login HTTP/1.1" 200 -
+2026-04-21 08:15:01,056 WARNING Brute force detected for: user
+2026-04-21 08:15:01,057 INFO 127.0.0.1 - - [21/Apr/2026 08:15:01] "POST /login HTTP/1.1" 200 -
+2026-04-21 08:15:11,694 WARNING Brute force detected for: john
+2026-04-21 08:15:11,694 INFO 127.0.0.1 - - [21/Apr/2026 08:15:11] "POST /login HTTP/1.1" 200 -
+2026-04-21 08:15:27,291 INFO package: mysql.connector.plugins
+2026-04-21 08:15:27,291 INFO plugin_name: caching_sha2_password
+2026-04-21 08:15:27,291 INFO AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-21 08:15:27,312 INFO 127.0.0.1 - - [21/Apr/2026 08:15:27] "GET / HTTP/1.1" 200 -
+2026-04-21 08:15:36,674 INFO 127.0.0.1 - - [21/Apr/2026 08:15:36] "GET /login HTTP/1.1" 200 -
+2026-04-21 08:16:15,197 WARNING Brute force detected for: user
+2026-04-21 08:16:15,198 INFO 127.0.0.1 - - [21/Apr/2026 08:16:15] "POST /login HTTP/1.1" 200 -
+2026-04-21 08:16:42,235 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-21 08:16:42,236 INFO [33mPress CTRL+C to quit[0m
+2026-04-21 08:16:42,237 INFO  * Restarting with stat
+2026-04-21 08:16:42,652 WARNING  * Debugger is active!
+2026-04-21 08:16:42,655 INFO  * Debugger PIN: 389-672-237
+2026-04-21 08:17:09,558 WARNING Brute force detected for: user
+2026-04-21 08:17:09,573 INFO 127.0.0.1 - - [21/Apr/2026 08:17:09] "POST /login HTTP/1.1" 200 -
+2026-04-21 08:17:28,065 INFO 127.0.0.1 - - [21/Apr/2026 08:17:28] "GET /product-image HTTP/1.1" 200 -
+2026-04-21 08:17:31,204 INFO 127.0.0.1 - - [21/Apr/2026 08:17:31] "[32mGET /upload HTTP/1.1[0m" 302 -
+2026-04-21 08:17:31,518 INFO 127.0.0.1 - - [21/Apr/2026 08:17:31] "GET /login HTTP/1.1" 200 -
+2026-04-21 08:17:34,559 INFO 127.0.0.1 - - [21/Apr/2026 08:17:34] "GET /product-image HTTP/1.1" 200 -
+2026-04-21 08:18:19,796 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-21 08:18:19,796 INFO [33mPress CTRL+C to quit[0m
+2026-04-21 08:18:19,797 INFO  * Restarting with stat
+2026-04-21 08:18:20,145 WARNING  * Debugger is active!
+2026-04-21 08:18:20,148 INFO  * Debugger PIN: 389-672-237
+2026-04-21 08:18:58,377 INFO package: mysql.connector.plugins
+2026-04-21 08:18:58,377 INFO plugin_name: caching_sha2_password
+2026-04-21 08:18:58,377 INFO AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-21 08:18:58,399 INFO 127.0.0.1 - - [21/Apr/2026 08:18:58] "GET / HTTP/1.1" 200 -
+2026-04-21 08:19:00,155 INFO 127.0.0.1 - - [21/Apr/2026 08:19:00] "GET /login HTTP/1.1" 200 -
+2026-04-21 08:19:09,079 WARNING Brute force detected for: john
+2026-04-21 08:19:09,080 INFO 127.0.0.1 - - [21/Apr/2026 08:19:09] "POST /login HTTP/1.1" 200 -
+2026-04-21 08:19:27,821 INFO 127.0.0.1 - - [21/Apr/2026 08:19:27] "GET /login HTTP/1.1" 200 -
+2026-04-21 08:19:29,383 INFO 127.0.0.1 - - [21/Apr/2026 08:19:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-21 08:19:39,626 INFO Successful login: john
+2026-04-21 08:19:39,629 INFO 127.0.0.1 - - [21/Apr/2026 08:19:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-21 08:19:39,696 INFO 127.0.0.1 - - [21/Apr/2026 08:19:39] "GET / HTTP/1.1" 200 -
+2026-04-21 08:19:43,698 INFO 127.0.0.1 - - [21/Apr/2026 08:19:43] "GET /upload HTTP/1.1" 200 -
+2026-04-21 08:19:51,158 WARNING Blocked upload attempt: malicious.py by john
+2026-04-21 08:19:51,159 INFO 127.0.0.1 - - [21/Apr/2026 08:19:51] "POST /upload HTTP/1.1" 200 -
+2026-04-21 08:20:22,691 INFO File uploaded: pana_sankranti_synetic.jpeg by john
+2026-04-21 08:20:22,692 INFO 127.0.0.1 - - [21/Apr/2026 08:20:22] "POST /upload HTTP/1.1" 200 -
+2026-04-21 08:20:26,189 INFO 127.0.0.1 - - [21/Apr/2026 08:20:26] "GET /static/uploads/pana_sankranti_synetic.jpeg HTTP/1.1" 200 -
+2026-04-21 23:15:22,602 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-21 23:15:22,604 INFO [33mPress CTRL+C to quit[0m
+2026-04-21 23:15:22,606 INFO  * Restarting with stat
+2026-04-21 23:15:23,034 WARNING  * Debugger is active!
+2026-04-21 23:15:23,037 INFO  * Debugger PIN: 100-867-326
+2026-04-21 23:15:33,331 INFO 127.0.0.1 - - [21/Apr/2026 23:15:33] "GET / HTTP/1.1" 200 -
+2026-04-21 23:15:33,436 INFO 127.0.0.1 - - [21/Apr/2026 23:15:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-21 23:15:50,358 INFO 127.0.0.1 - - [21/Apr/2026 23:15:50] "GET / HTTP/1.1" 200 -
+2026-04-21 23:16:43,304 INFO 127.0.0.1 - - [21/Apr/2026 23:16:43] "GET /login HTTP/1.1" 200 -
+2026-04-21 23:17:05,930 WARNING Failed login for: admin
+2026-04-21 23:17:05,934 INFO 127.0.0.1 - - [21/Apr/2026 23:17:05] "POST /login HTTP/1.1" 200 -
+2026-04-21 23:17:12,750 INFO 127.0.0.1 - - [21/Apr/2026 23:17:12] "GET /login HTTP/1.1" 200 -
+2026-04-21 23:17:25,431 WARNING Failed login for: admin
+2026-04-21 23:17:25,434 INFO 127.0.0.1 - - [21/Apr/2026 23:17:25] "POST /login HTTP/1.1" 200 -
+2026-04-21 23:17:42,557 WARNING Failed login for: john
+2026-04-21 23:17:42,559 INFO 127.0.0.1 - - [21/Apr/2026 23:17:42] "POST /login HTTP/1.1" 200 -
+2026-04-21 23:19:55,681 INFO  * Detected change in 'C:\\Users\\kubis\\Downloads\\SMARTNEST\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-21 23:19:55,718 INFO  * Restarting with stat
+2026-04-21 23:19:56,012 WARNING  * Debugger is active!
+2026-04-21 23:19:56,015 INFO  * Debugger PIN: 100-867-326
+2026-04-21 23:19:57,027 INFO  * Detected change in 'C:\\Users\\kubis\\Downloads\\SMARTNEST\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-21 23:19:57,073 INFO  * Restarting with stat
+2026-04-21 23:19:57,363 WARNING  * Debugger is active!
+2026-04-21 23:19:57,366 INFO  * Debugger PIN: 100-867-326
+2026-04-21 23:31:21,859 WARNING Failed login for: john
+2026-04-21 23:31:21,871 INFO 127.0.0.1 - - [21/Apr/2026 23:31:21] "POST /login HTTP/1.1" 200 -
+2026-04-21 23:31:22,997 INFO 127.0.0.1 - - [21/Apr/2026 23:31:22] "GET /login HTTP/1.1" 200 -
+2026-04-21 23:31:23,866 INFO 127.0.0.1 - - [21/Apr/2026 23:31:23] "GET /register HTTP/1.1" 200 -
+2026-04-21 23:31:46,876 INFO 127.0.0.1 - - [21/Apr/2026 23:31:46] "POST /register HTTP/1.1" 200 -
+2026-04-21 23:31:53,987 INFO 127.0.0.1 - - [21/Apr/2026 23:31:53] "GET /register HTTP/1.1" 200 -
+2026-04-21 23:31:54,179 INFO 127.0.0.1 - - [21/Apr/2026 23:31:54] "GET /register HTTP/1.1" 200 -
+2026-04-21 23:31:54,406 INFO 127.0.0.1 - - [21/Apr/2026 23:31:54] "GET /register HTTP/1.1" 200 -
+2026-04-21 23:32:31,465 INFO 127.0.0.1 - - [21/Apr/2026 23:32:31] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-04-21 23:32:31,469 INFO 127.0.0.1 - - [21/Apr/2026 23:32:31] "GET /login HTTP/1.1" 200 -
+2026-04-21 23:32:37,033 INFO 127.0.0.1 - - [21/Apr/2026 23:32:37] "GET /login HTTP/1.1" 200 -
+2026-04-21 23:32:44,700 WARNING Failed login for: koko
+2026-04-21 23:32:44,701 INFO 127.0.0.1 - - [21/Apr/2026 23:32:44] "POST /login HTTP/1.1" 200 -
+2026-04-21 23:33:35,146 WARNING Failed login for: koko
+2026-04-21 23:33:35,147 INFO 127.0.0.1 - - [21/Apr/2026 23:33:35] "POST /login HTTP/1.1" 200 -
+2026-04-21 23:33:49,505 WARNING Failed login for: koko
+2026-04-21 23:33:49,506 INFO 127.0.0.1 - - [21/Apr/2026 23:33:49] "POST /login HTTP/1.1" 200 -
+2026-04-21 23:33:58,601 INFO 127.0.0.1 - - [21/Apr/2026 23:33:58] "GET /register HTTP/1.1" 200 -
+2026-04-21 23:35:09,366 INFO 127.0.0.1 - - [21/Apr/2026 23:35:09] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-04-21 23:35:09,371 INFO 127.0.0.1 - - [21/Apr/2026 23:35:09] "GET /login HTTP/1.1" 200 -
+2026-04-21 23:35:14,440 INFO 127.0.0.1 - - [21/Apr/2026 23:35:14] "GET /login HTTP/1.1" 200 -
+2026-04-21 23:35:22,616 INFO Successful login: dog
+2026-04-21 23:35:22,617 INFO 127.0.0.1 - - [21/Apr/2026 23:35:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-21 23:35:22,632 INFO 127.0.0.1 - - [21/Apr/2026 23:35:22] "GET / HTTP/1.1" 200 -
+2026-04-21 23:35:45,276 INFO 127.0.0.1 - - [21/Apr/2026 23:35:45] "GET /profile/6 HTTP/1.1" 200 -
+2026-04-21 23:35:50,005 INFO 127.0.0.1 - - [21/Apr/2026 23:35:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-21 23:35:50,010 INFO 127.0.0.1 - - [21/Apr/2026 23:35:50] "GET /login HTTP/1.1" 200 -
+2026-04-21 23:35:51,539 INFO 127.0.0.1 - - [21/Apr/2026 23:35:51] "GET /register HTTP/1.1" 200 -
+2026-04-21 23:37:25,346 INFO 127.0.0.1 - - [21/Apr/2026 23:37:25] "GET /register HTTP/1.1" 200 -
+2026-04-21 23:37:40,847 INFO 127.0.0.1 - - [21/Apr/2026 23:37:40] "GET /login HTTP/1.1" 200 -
+2026-04-21 23:37:50,786 WARNING Failed login for: admin
+2026-04-21 23:37:50,787 INFO 127.0.0.1 - - [21/Apr/2026 23:37:50] "POST /login HTTP/1.1" 200 -
+2026-04-21 23:42:49,220 INFO 127.0.0.1 - - [21/Apr/2026 23:42:49] "GET / HTTP/1.1" 200 -
+2026-04-21 23:42:59,240 INFO 127.0.0.1 - - [21/Apr/2026 23:42:59] "GET /product-image HTTP/1.1" 200 -
+2026-04-21 23:43:00,327 INFO 127.0.0.1 - - [21/Apr/2026 23:43:00] "[32mGET /upload HTTP/1.1[0m" 302 -
+2026-04-21 23:43:00,339 INFO 127.0.0.1 - - [21/Apr/2026 23:43:00] "GET /login HTTP/1.1" 200 -
+2026-04-21 23:43:05,533 INFO 127.0.0.1 - - [21/Apr/2026 23:43:05] "[32mGET /upload HTTP/1.1[0m" 302 -
+2026-04-21 23:43:05,544 INFO 127.0.0.1 - - [21/Apr/2026 23:43:05] "GET /login HTTP/1.1" 200 -
+2026-04-21 23:43:08,131 INFO 127.0.0.1 - - [21/Apr/2026 23:43:08] "[32mGET /upload HTTP/1.1[0m" 302 -
+2026-04-21 23:43:08,143 INFO 127.0.0.1 - - [21/Apr/2026 23:43:08] "GET /login HTTP/1.1" 200 -
+2026-04-21 23:43:08,927 INFO 127.0.0.1 - - [21/Apr/2026 23:43:08] "GET /login HTTP/1.1" 200 -
+2026-04-21 23:43:10,268 INFO 127.0.0.1 - - [21/Apr/2026 23:43:10] "GET /login HTTP/1.1" 200 -
+2026-04-21 23:43:16,580 WARNING Failed login for: koko
+2026-04-21 23:43:16,581 INFO 127.0.0.1 - - [21/Apr/2026 23:43:16] "POST /login HTTP/1.1" 200 -
+2026-04-21 23:43:23,390 WARNING Failed login for: koko
+2026-04-21 23:43:23,391 INFO 127.0.0.1 - - [21/Apr/2026 23:43:23] "POST /login HTTP/1.1" 200 -
+2026-04-21 23:43:39,841 WARNING Failed login for: koko
+2026-04-21 23:43:39,842 INFO 127.0.0.1 - - [21/Apr/2026 23:43:39] "POST /login HTTP/1.1" 200 -
+2026-04-21 23:43:47,990 INFO Successful login: dog
+2026-04-21 23:43:47,990 INFO 127.0.0.1 - - [21/Apr/2026 23:43:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-21 23:43:47,999 INFO 127.0.0.1 - - [21/Apr/2026 23:43:47] "GET / HTTP/1.1" 200 -
+2026-04-21 23:44:14,497 INFO 127.0.0.1 - - [21/Apr/2026 23:44:14] "GET /upload HTTP/1.1" 200 -
+2026-04-21 23:44:20,313 INFO 127.0.0.1 - - [21/Apr/2026 23:44:20] "POST /upload HTTP/1.1" 200 -
+2026-04-21 23:46:27,050 INFO  * Detected change in 'C:\\Users\\kubis\\Downloads\\SMARTNEST\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-21 23:46:27,087 INFO  * Restarting with stat
+2026-04-21 23:46:28,222 WARNING  * Debugger is active!
+2026-04-21 23:46:28,225 INFO  * Debugger PIN: 100-867-326
+2026-04-21 23:46:34,837 INFO 127.0.0.1 - - [21/Apr/2026 23:46:34] "POST /upload HTTP/1.1" 200 -
+2026-04-21 23:46:57,433 WARNING Blocked upload attempt: malicious.py by dog
+2026-04-21 23:46:57,438 INFO 127.0.0.1 - - [21/Apr/2026 23:46:57] "POST /upload HTTP/1.1" 200 -
+2026-04-24 19:16:59,856 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-24 19:16:59,858 INFO [33mPress CTRL+C to quit[0m
+2026-04-24 19:16:59,860 INFO  * Restarting with stat
+2026-04-24 19:17:00,248 WARNING  * Debugger is active!
+2026-04-24 19:17:00,251 INFO  * Debugger PIN: 307-497-013
+2026-04-24 19:17:20,728 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-24 19:17:20,728 INFO [33mPress CTRL+C to quit[0m
+2026-04-24 19:17:20,729 INFO  * Restarting with stat
+2026-04-24 19:17:21,027 WARNING  * Debugger is active!
+2026-04-24 19:17:21,029 INFO  * Debugger PIN: 307-497-013
+2026-04-24 19:19:58,089 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-24 19:19:58,090 INFO [33mPress CTRL+C to quit[0m
+2026-04-24 19:19:58,100 INFO  * Restarting with stat
+2026-04-24 19:19:59,341 WARNING  * Debugger is active!
+2026-04-24 19:19:59,344 INFO  * Debugger PIN: 307-497-013
+2026-04-24 19:20:29,759 INFO 127.0.0.1 - - [24/Apr/2026 19:20:29] "GET / HTTP/1.1" 200 -
+2026-04-24 19:20:38,550 INFO 127.0.0.1 - - [24/Apr/2026 19:20:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-24 19:21:22,267 INFO  * Detected change in 'C:\\Users\\kubis\\Downloads\\SMARTNEST\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-24 19:21:22,484 INFO  * Restarting with stat
+2026-04-24 19:21:22,508 INFO  * Detected change in 'C:\\Users\\kubis\\Downloads\\SMARTNEST\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-24 19:21:22,665 INFO  * Restarting with stat
+2026-04-24 19:21:24,335 WARNING  * Debugger is active!
+2026-04-24 19:21:24,347 INFO  * Debugger PIN: 307-497-013
+2026-04-24 19:21:27,476 INFO  * Detected change in 'C:\\Users\\kubis\\Downloads\\SMARTNEST\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-24 19:21:27,826 INFO  * Restarting with stat
+2026-04-24 19:21:30,986 WARNING  * Debugger is active!
+2026-04-24 19:21:31,001 INFO  * Debugger PIN: 307-497-013
+2026-04-24 19:21:33,109 INFO  * Detected change in 'C:\\Users\\kubis\\Downloads\\SMARTNEST\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-04-24 19:21:33,365 INFO  * Restarting with stat
+2026-04-24 19:21:36,160 WARNING  * Debugger is active!
+2026-04-24 19:21:36,189 INFO  * Debugger PIN: 307-497-013
+2026-04-24 19:23:06,482 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.152.204.178:5001
+2026-04-24 19:23:06,484 INFO [33mPress CTRL+C to quit[0m
+2026-04-24 19:23:06,497 INFO  * Restarting with stat
+2026-04-24 19:23:11,724 WARNING  * Debugger is active!
+2026-04-24 19:23:11,763 INFO  * Debugger PIN: 307-497-013
+2026-04-24 19:24:00,661 INFO 127.0.0.1 - - [24/Apr/2026 19:24:00] "GET / HTTP/1.1" 200 -
+2026-04-24 19:30:21,782 INFO 127.0.0.1 - - [24/Apr/2026 19:30:21] "GET /search?q=detector HTTP/1.1" 200 -
+2026-04-25 11:52:54,149 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.152.204.178:5001
+2026-04-25 11:52:54,150 INFO [33mPress CTRL+C to quit[0m
+2026-04-25 11:52:54,151 INFO  * Restarting with stat
+2026-04-25 11:52:54,554 WARNING  * Debugger is active!
+2026-04-25 11:52:54,558 INFO  * Debugger PIN: 356-328-786
+2026-04-25 11:54:05,869 INFO 127.0.0.1 - - [25/Apr/2026 11:54:05] "GET / HTTP/1.1" 200 -
+2026-04-25 11:54:06,202 INFO 127.0.0.1 - - [25/Apr/2026 11:54:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 11:54:49,541 INFO 127.0.0.1 - - [25/Apr/2026 11:54:49] "GET / HTTP/1.1" 200 -
+2026-04-29 20:03:58,034 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.152.204.178:5001
+2026-04-29 20:03:58,034 INFO [33mPress CTRL+C to quit[0m
+2026-04-29 20:03:58,035 INFO  * Restarting with stat
+2026-04-29 20:03:58,296 WARNING  * Debugger is active!
+2026-04-29 20:03:58,299 INFO  * Debugger PIN: 307-497-013
+2026-04-29 20:04:30,621 INFO 127.0.0.1 - - [29/Apr/2026 20:04:30] "GET / HTTP/1.1" 200 -
+2026-04-29 20:04:31,170 INFO 127.0.0.1 - - [29/Apr/2026 20:04:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-01 08:15:00,733 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.38:5001
+2026-05-01 08:15:00,733 INFO [33mPress CTRL+C to quit[0m
+2026-05-01 08:15:00,735 INFO  * Restarting with stat
+2026-05-01 08:15:00,984 WARNING  * Debugger is active!
+2026-05-01 08:15:00,986 INFO  * Debugger PIN: 307-497-013
+2026-05-01 08:16:44,326 INFO  * Detected change in 'C:\\Users\\kubis\\Downloads\\SMARTNEST\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-05-01 08:16:44,366 INFO  * Restarting with stat
+2026-05-01 08:17:06,615 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-05-01 08:17:06,615 INFO [33mPress CTRL+C to quit[0m
+2026-05-01 08:17:06,616 INFO  * Restarting with stat
+2026-05-01 08:17:06,882 WARNING  * Debugger is active!
+2026-05-01 08:17:06,885 INFO  * Debugger PIN: 307-497-013
+2026-05-01 08:18:22,113 INFO  * Detected change in 'C:\\Users\\kubis\\Downloads\\SMARTNEST\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-05-01 08:18:22,153 INFO  * Restarting with stat
+2026-05-01 08:18:22,463 WARNING  * Debugger is active!
+2026-05-01 08:18:22,466 INFO  * Debugger PIN: 307-497-013
+2026-05-01 08:21:32,759 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.38:5001
+2026-05-01 08:21:32,759 INFO [33mPress CTRL+C to quit[0m
+2026-05-01 08:21:32,760 INFO  * Restarting with stat
+2026-05-01 08:21:33,040 WARNING  * Debugger is active!
+2026-05-01 08:21:33,044 INFO  * Debugger PIN: 307-497-013
+2026-05-01 08:22:27,350 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.38:5001
+2026-05-01 08:22:27,350 INFO [33mPress CTRL+C to quit[0m
+2026-05-01 08:22:27,351 INFO  * Restarting with stat
+2026-05-01 08:22:27,629 WARNING  * Debugger is active!
+2026-05-01 08:22:27,632 INFO  * Debugger PIN: 307-497-013
+2026-05-01 08:25:26,715 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.38:5001
+2026-05-01 08:25:26,716 INFO [33mPress CTRL+C to quit[0m
+2026-05-01 08:25:26,718 INFO  * Restarting with stat
+2026-05-01 08:25:26,998 WARNING  * Debugger is active!
+2026-05-01 08:25:27,000 INFO  * Debugger PIN: 307-497-013
+2026-05-01 08:26:07,127 INFO  * Detected change in 'C:\\Users\\kubis\\Downloads\\SMARTNEST\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-05-01 08:26:07,161 INFO  * Restarting with stat
+2026-05-01 08:26:07,497 WARNING  * Debugger is active!
+2026-05-01 08:26:07,499 INFO  * Debugger PIN: 307-497-013
+2026-05-01 08:26:15,528 INFO  * Detected change in 'C:\\Users\\kubis\\Downloads\\SMARTNEST\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-05-01 08:26:15,563 INFO  * Restarting with stat
+2026-05-01 08:26:15,890 WARNING  * Debugger is active!
+2026-05-01 08:26:15,892 INFO  * Debugger PIN: 307-497-013
+2026-05-01 08:26:30,939 INFO  * Detected change in 'C:\\Users\\kubis\\Downloads\\SMARTNEST\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-05-01 08:26:30,973 INFO  * Restarting with stat
+2026-05-01 08:26:31,283 WARNING  * Debugger is active!
+2026-05-01 08:26:31,286 INFO  * Debugger PIN: 307-497-013
+2026-05-01 08:26:39,632 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-05-01 08:26:39,632 INFO [33mPress CTRL+C to quit[0m
+2026-05-01 08:26:39,633 INFO  * Restarting with stat
+2026-05-01 08:26:39,938 WARNING  * Debugger is active!
+2026-05-01 08:26:39,941 INFO  * Debugger PIN: 307-497-013
+2026-05-01 08:27:43,122 INFO  * Detected change in 'C:\\Users\\kubis\\Downloads\\SMARTNEST\\SMARTNEST\\secure_site\\secure_app.py', reloading
+2026-05-01 08:27:43,165 INFO  * Restarting with stat
+2026-05-01 08:27:48,891 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-05-01 08:27:48,891 INFO [33mPress CTRL+C to quit[0m
+2026-05-01 08:28:29,071 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-05-01 08:28:29,071 INFO [33mPress CTRL+C to quit[0m
+2026-05-01 08:28:29,072 INFO  * Restarting with stat
+2026-05-01 08:28:29,344 WARNING  * Debugger is active!
+2026-05-01 08:28:29,347 INFO  * Debugger PIN: 307-497-013
+2026-05-01 08:29:57,525 INFO 127.0.0.1 - - [01/May/2026 08:29:57] "GET / HTTP/1.1" 200 -
+2026-05-01 08:29:57,697 INFO 127.0.0.1 - - [01/May/2026 08:29:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-01 10:06:59,678 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-05-01 10:06:59,681 INFO [33mPress CTRL+C to quit[0m
+2026-05-01 10:06:59,682 INFO  * Restarting with stat
+2026-05-01 10:07:00,026 WARNING  * Debugger is active!
+2026-05-01 10:07:00,029 INFO  * Debugger PIN: 307-497-013
+2026-05-01 10:07:08,221 INFO 127.0.0.1 - - [01/May/2026 10:07:08] "GET / HTTP/1.1" 200 -
+2026-05-01 10:07:08,222 INFO 127.0.0.1 - - [01/May/2026 10:07:08] "GET / HTTP/1.1" 200 -
+2026-05-01 10:07:09,563 INFO 127.0.0.1 - - [01/May/2026 10:07:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-01 10:07:46,167 INFO 127.0.0.1 - - [01/May/2026 10:07:46] "GET /register HTTP/1.1" 200 -
+2026-05-01 10:07:53,692 INFO 127.0.0.1 - - [01/May/2026 10:07:53] "GET /search?q= HTTP/1.1" 200 -
+2026-05-01 10:08:59,238 INFO 127.0.0.1 - - [01/May/2026 10:08:59] "GET /register HTTP/1.1" 200 -
+2026-05-01 10:10:17,746 INFO 127.0.0.1 - - [01/May/2026 10:10:17] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-05-01 10:10:17,923 INFO 127.0.0.1 - - [01/May/2026 10:10:17] "GET /login HTTP/1.1" 200 -
+2026-05-01 10:10:24,862 INFO Successful login: hemrajbehera12
+2026-05-01 10:10:24,866 INFO 127.0.0.1 - - [01/May/2026 10:10:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-05-01 10:10:24,876 INFO 127.0.0.1 - - [01/May/2026 10:10:24] "GET / HTTP/1.1" 200 -
+2026-05-01 10:17:07,967 INFO 127.0.0.1 - - [01/May/2026 10:17:07] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-01 10:17:07,985 INFO 127.0.0.1 - - [01/May/2026 10:17:07] "GET /login HTTP/1.1" 200 -
+2026-05-01 10:17:13,501 INFO Successful login: hemrajbehera12
+2026-05-01 10:17:13,502 INFO 127.0.0.1 - - [01/May/2026 10:17:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-05-01 10:17:13,513 INFO 127.0.0.1 - - [01/May/2026 10:17:13] "GET / HTTP/1.1" 200 -
+2026-05-01 10:27:09,001 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-05-01 10:27:09,001 INFO [33mPress CTRL+C to quit[0m
+2026-05-01 10:27:09,002 INFO  * Restarting with stat
+2026-05-01 10:27:09,257 WARNING  * Debugger is active!
+2026-05-01 10:27:09,259 INFO  * Debugger PIN: 307-497-013
+2026-05-01 10:37:06,291 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-05-01 10:37:06,291 INFO [33mPress CTRL+C to quit[0m
+2026-05-01 10:37:06,292 INFO  * Restarting with stat
+2026-05-01 10:37:06,565 WARNING  * Debugger is active!
+2026-05-01 10:37:06,568 INFO  * Debugger PIN: 307-497-013
+2026-05-01 10:37:36,068 INFO 127.0.0.1 - - [01/May/2026 10:37:36] "GET / HTTP/1.1" 200 -
+2026-05-01 10:37:36,257 INFO 127.0.0.1 - - [01/May/2026 10:37:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-01 19:40:14,523 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-05-01 19:40:14,523 INFO [33mPress CTRL+C to quit[0m
+2026-05-01 19:40:14,524 INFO  * Restarting with stat
+2026-05-01 19:40:14,779 WARNING  * Debugger is active!
+2026-05-01 19:40:14,782 INFO  * Debugger PIN: 307-497-013
+2026-05-01 19:40:33,975 INFO 127.0.0.1 - - [01/May/2026 19:40:33] "GET / HTTP/1.1" 200 -
+2026-05-01 19:40:34,130 INFO 127.0.0.1 - - [01/May/2026 19:40:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

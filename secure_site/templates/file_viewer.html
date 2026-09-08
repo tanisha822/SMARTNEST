@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}File Viewer — CyberNest{% endblock %}
+
+{% block content %}
+<div class="page-wrap">
+  <div class="page-header">
+    <h1><i class="bi bi-folder2-open" style="color:var(--accent)"></i> File Viewer</h1>
+    <p>Product image viewer feature</p>
+  </div>
+
+  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;margin-bottom:20px;">
+    <form method="GET" action="/product-image">
+      <div style="display:flex;gap:10px;">
+        <input type="text" name="file"
+               value="{{ filename }}"
+               class="form-control-dark"
+               placeholder="Enter filename e.g. camera.jpg"
+               style="flex:1"/>
+        <button type="submit" class="btn-accent">
+          <i class="bi bi-search"></i> View File
+        </button>
+      </div>
+    </form>
+  </div>
+
+  {% if content %}
+  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;">
+    <div style="padding:12px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px;">
+      <i class="bi bi-file-text" style="color:var(--accent)"></i>
+      <span style="font-family:var(--font-mono);font-size:13px;color:var(--text-2);">{{ filename }}</span>
+    </div>
+    <pre style="padding:20px;font-family:var(--font-mono);font-size:13px;color:var(--text-1);overflow-x:auto;white-space:pre-wrap;margin:0;">{{ content }}</pre>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

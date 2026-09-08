@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% block title %}Profile — CyberNest{% endblock %}
+
+{% block content %}
+<div class="page-wrap">
+  <div class="breadcrumb-dark">
+    <a href="/">Home</a><span class="sep">/</span>
+    <span>Profile</span>
+  </div>
+
+  {% if user %}
+  <div class="row g-4">
+    <div class="col-lg-4">
+      <div class="profile-card">
+        <div class="profile-banner"></div>
+        <div class="profile-body">
+          <div class="profile-avatar">{{ user.username[0].upper() }}</div>
+          <div class="profile-name">{{ user.username }}</div>
+          <div style="font-size:13px;color:var(--text-2);margin-top:4px;">{{ user.email }}</div>
+          <div style="margin-top:10px;">
+            <span class="role-badge {% if user.role == 'admin' %}role-admin{% else %}role-user{% endif %}">
+              <i class="bi bi-{% if user.role == 'admin' %}shield-fill{% else %}person-fill{% endif %}"></i>
+              {{ user.role | upper }}
+            </span>
+          </div>
+
+          <div style="margin-top:20px;display:flex;gap:8px;flex-wrap:wrap;">
+            <a href="#" class="btn-outline-accent" style="padding:8px 16px;font-size:13px;">
+              <i class="bi bi-pencil"></i> Edit Profile
+            </a>
+            <a href="/logout" class="nav-btn nav-btn-danger" style="padding:8px 14px;font-size:13px;">
+              <i class="bi bi-box-arrow-right"></i> Logout
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Stats -->
+      <div style="margin-top:16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;">
+        <div style="font-family:var(--font-head);font-size:16px;font-weight:600;margin-bottom:14px;">Account Stats</div>
+        <div style="display:flex;flex-direction:column;gap:10px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border);">
+            <span style="font-size:13px;color:var(--text-2);"><i class="bi bi-bag me-2"></i>Total Orders</span>
+            <span style="font-family:var(--font-mono);color:var(--accent);">7</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border);">
+            <span style="font-size:13px;color:var(--text-2);"><i class="bi bi-heart me-2"></i>Wishlist Items</span>
+            <span style="font-family:var(--font-mono);color:var(--accent);">12</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;">
+            <span style="font-size:13px;color:var(--text-2);"><i class="bi bi-star me-2"></i>Reviews</span>
+            <span style="font-family:var(--font-mono);color:var(--accent);">3</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-8">
+      <!-- Account Info -->
+      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;margin-bottom:16px;">
+        <div style="font-family:var(--font-head);font-size:18px;font-weight:600;margin-bottom:20px;display:flex;align-items:center;gap:8px;">
+          <i class="bi bi-person-badge" style="color:var(--accent);"></i> Account Information
+        </div>
+        <div class="profile-info-grid">
+          <div class="info-item">
+            <div class="info-label">User ID</div>
+            <div class="info-value" style="font-family:var(--font-mono);color:var(--accent);">#{{ user.id }}</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">Role</div>
+            <div class="info-value">
+              <span class="role-badge {% if user.role == 'admin' %}role-admin{% else %}role-user{% endif %}">{{ user.role }}</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">Username</div>
+            <div class="info-value">{{ user.username }}</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">Email</div>
+            <div class="info-value">{{ user.email }}</div>
+          </div>
+          <div class="info-item full">
+            <div class="info-label">Password (Stored)</div>
+            <div class="info-value" style="font-family:var(--font-mono);font-size:13px;color:var(--accent2);">{{ user.password }}</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recent Orders placeholder -->
+      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;">
+        <div style="padding:16px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;">
+          <div style="font-family:var(--font-head);font-size:18px;font-weight:600;display:flex;align-items:center;gap:8px;">
+            <i class="bi bi-bag-check" style="color:var(--accent);"></i> Recent Orders
+          </div>
+          <a href="#" style="font-size:13px;color:var(--accent);text-decoration:none;">View all</a>
+        </div>
+        <div style="padding:40px;text-align:center;color:var(--text-2);">
+          <i class="bi bi-bag" style="font-size:36px;display:block;margin-bottom:12px;opacity:.3;"></i>
+          <div style="font-size:14px;">No orders yet.</div>
+          <a href="/" class="btn-accent" style="display:inline-flex;margin-top:14px;padding:10px 20px;font-size:13px;">
+            <i class="bi bi-shop"></i> Start Shopping
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% else %}
+  <div style="text-align:center;padding:80px 20px;">
+    <i class="bi bi-person-x" style="font-size:56px;color:var(--text-3);display:block;margin-bottom:16px;"></i>
+    <div style="font-family:var(--font-head);font-size:22px;margin-bottom:8px;">User Not Found</div>
+    <p style="color:var(--text-2);margin-bottom:20px;">The user profile you're looking for doesn't exist.</p>
+    <a href="/" class="btn-accent"><i class="bi bi-house"></i> Go Home</a>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}
