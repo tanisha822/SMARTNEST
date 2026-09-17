@@ -32,7 +32,7 @@ python-dotenv==1.0.1
 flask-talisman==1.1.0
 
 # Rate Limiting (for brute force protection)
-flask-limiter==3.9.3
+flask-limiter==4.1.1
 
 # Logging utilities
 colorlog==6.9.0
